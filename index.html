@@ -42,6 +42,7 @@
       }
 
       function onDeviceReady() {
+        alert("Device ready!");
         loadDefaultFeed();
         watchForShake(3.0);
         document.addEventListener("pause", function() {
